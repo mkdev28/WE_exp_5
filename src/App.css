@@ -1,0 +1,71 @@
+/* src/App.css */
+.lab-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.styled-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav-bar {
+  background-color: #1e293b;
+  padding: 15px 30px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #93c5fd;
+}
+
+.page-content {
+  padding: 30px;
+  min-height: 300px;
+}
+
+/* Enrollment Manager Styles (Assignment 2) */
+.enrollment-box {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.seats-good { color: #059669; font-weight: bold; }
+.seats-low { color: #dc2626; font-weight: bold; }
+
+.enroll-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-active { background-color: #2563eb; color: white; }
+.btn-cancel { background-color: #ef4444; color: white; }
